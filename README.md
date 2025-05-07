@@ -1,9 +1,11 @@
 ## 🎬 Preview
 
-### 🔹 Small Preview of Application Features
+### 🔹 Small Preview of Application Features 🚨 **Important Note:** **🔊 Turn On Audio**
+
 [🔗 View App Preview](https://github.com/user-attachments/assets/3188cfb9-d9d7-49e9-b617-6aa5ac6a6ede)
 
-### 🔹 K-Direct Demo GIF
+### 🔹 ## 📽️ SafexBank Demo (Click to Play GIF)
+
 ![K-Direct Demo](semifinal.gif)
 
 ---
