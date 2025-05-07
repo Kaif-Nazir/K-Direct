@@ -1,0 +1,120 @@
+/* Root AnchorPane */
+#ap_main {
+    -fx-background-color: linear-gradient(to bottom right, #f5f7fa, #c3cfe2);  /* Soft, subtle gradient */
+    -fx-padding: 15px;
+    -fx-border-color: #aab7b8;
+    -fx-border-width: 1px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+/* Title Label */
+.label {
+       -fx-text-fill: #f2f2f2; /* Light text for contrast */
+       -fx-font-size: 26px;
+       -fx-font-weight: bold;
+       -fx-font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+       -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 6, 0.2, 1, 1);
+       -fx-padding: 5px 15px;
+       -fx-background-color: rgba(255, 255, 255, 0.05); /* Soft translucent background */
+       -fx-background-radius: 10px;
+       -fx-border-color: rgba(255, 255, 255, 0.15);
+       -fx-border-width: 1px;
+       -fx-border-radius: 10px;
+}
+.label FontAwesomeIconView  {
+    -fx-fill: linear-gradient(to top, #1c1cff 40%, #3737f5 60%, #7c98ff 100%);
+
+}
+
+#button_send {
+    -fx-background-color: linear-gradient(to top, #001f3f 0%, #003153 40%, #1c1c1c 70%, #002b4f 100%);
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20px;
+    -fx-padding: 8px 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.3, 3, 5);
+}
+
+/* Hover effect for button */
+#button_send:hover {
+  -fx-background-color: #093b5d;
+  -fx-cursor: hand;
+}
+#button_send:hover FontAwesomeIconView {
+    -fx-fill: #00ffff; /* Change to a lighter color on hover */
+}
+#button_reset {
+    -fx-background-color: linear-gradient(to bottom, #1f1f1f, #000000); /* Deep black gradient */
+    -fx-text-fill: #ff4c4c; /* More vivid red */
+    -fx-font-weight: bold;
+    -fx-background-radius: 18px;
+    -fx-padding: 8px 20px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(255, 76, 76, 0.2), 4, 0.2, 0, 1); /* Subtle red glow */
+    -fx-border-color: #ff4c4c;
+    -fx-border-radius: 18px;
+}
+
+
+/* Hover effect */
+#button_reset:hover {
+    -fx-background-color: linear-gradient(to bottom, #444444, #1e1e1e);
+    -fx-text-fill: #ff4c4c;  /* Sharper red for hover */
+    -fx-border-color: #ff4c4c;
+    -fx-effect: dropshadow(gaussian, rgba(255, 76, 76, 0.3), 4, 0.3, 0, 1);
+}
+
+#tf_message {
+    -fx-background-radius: 15px; /* Slightly larger radius for smoother edges */
+    -fx-background-color: #002147; /* Soft light gray background */
+    -fx-border-color: white; /* Lighter border for a more subtle appearance */
+    -fx-border-radius: 15px; /* Matching border radius */
+    -fx-padding: 10px 15px; /* More spacious padding */
+    -fx-font-size: 14px; /* Slightly larger text size for readability */
+    -fx-text-fill: white; /* Darker text color for better contrast */
+    -fx-border-width: 1px; /* Thin border for minimalistic style */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 3, 0.2, 0, 1); /* Soft shadow for depth */
+}
+
+#tf_message:focused {
+    -fx-background-color:  #1c1c1c; /* Slightly lighter gray when focused */
+    -fx-border-color: white; /* Lighter gray border on focus */
+    -fx-text-fill: white; /* Lighter text color when focused */
+    -fx-border-width: 1px;
+}
+
+
+
+/* ScrollPane */
+#sp_main {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+#ap_main{
+-fx-background-image: url('../imgs/back.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center;
+    -fx-background-size: 100% 100%;
+
+}
+
+/* VBox inside ScrollPane (messages area) */
+#vbox_message {
+    -fx-background-image: url('../imgs/purple_venom.png');
+    -fx-background-size: cover;
+    -fx-background-repeat: repeat;
+    -fx-background-position: center center;
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+    -fx-background-blend-mode: multiply; /* Blended background */
+    -fx-opacity: 0.85;
+}
+.outlined-box {
+    -fx-border-color: black;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-padding: 10;
+}
